@@ -42,6 +42,7 @@ import { EnvVariables } from '../../app/environment-variables/environment-variab
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController, @Inject(EnvVariables) public envVariables) {}
+  constructor(public navCtrl: NavController, @Inject(EnvVariables) public envVariables) {
+  }
 
 }

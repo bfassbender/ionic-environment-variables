@@ -1,3 +1,4 @@
-import { OpaqueToken } from "@angular/core";
+import { InjectionToken } from "@angular/core";
 
-export let EnvVariables = new OpaqueToken("env.variables");
+//We use an InjectionToken. See https://angular.io/guide/dependency-injection#dependency-injection-tokens for more details.
+export const EnvVariables = new InjectionToken('env.variables');

@@ -16,6 +16,10 @@ export function environmentFactory() {
     return qaVariables;
   }
 
+  if (process.env.NODE_ENV === 'prod') {
+    return prodVariables;
+  }
+
   return process.env.IONIC_ENV === 'prod' ? prodVariables : devVariables;
 }
 

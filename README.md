@@ -19,4 +19,4 @@ Or simply set NODE_ENV to 'prod' before running serve, which is what that npm sc
 `npm run ionic:serve:qa`
 Or simply set NODE_ENV to 'qa' before running serve, which is what that npm script does.
 
-Companion to my tutorial here, upgraded to Ionic 3 with Angular 4 http://www.roblouie.com/article/296/ionic-2-environment-variables-the-best-way/
+Companion to [roblouie's](https://github.com/roblouie) tutorial here, upgraded to Ionic 3 with Angular 4 http://www.roblouie.com/article/296/ionic-2-environment-variables-the-best-way/

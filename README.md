@@ -14,6 +14,8 @@ After changing the Webpack config, all the logic is encapsulated in the environm
 `npm run ionic:serve:prod` as ionic serve does ignore the --prod option.
 Or simply set NODE_ENV to 'prod' before running serve, which is what that npm script does.
 
+### Do 'prod' builds for a platform
+When building for a platform you can use e.g. `ionic cordova build ios --prod` or `ionic cordova emulate ios --prod` as a shorthand for using the 'prod' environment variables in your build.
 
 ### Use 'qa' environment variables 
 `npm run ionic:serve:qa`
